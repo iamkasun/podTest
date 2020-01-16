@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "1.0.8"
+  spec.version      = "1.0.9"
   spec.summary      = "This is summary for pod test. Use for test."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ This is description. Use for pod description.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.8" }
+  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.9" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ This is description. Use for pod description.
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.source_files  = "podTest/*.{h}"
+  spec.source_files  = "podTest", "podTest/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -125,6 +125,7 @@ This is description. Use for pod description.
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
+  spec.static_framework = true
   spec.frameworks    = 'Alamofire', 'SwiftyJSON'
   spec.dependency 'Alamofire'
   spec.dependency 'SwiftyJSON', '~> 4.0'
