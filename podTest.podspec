@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "1.0.6"
+  spec.version      = "1.0.7"
   spec.summary      = "This is summary for pod test. Use for test."
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ This is description. Use for pod description.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.6" }
+  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.7" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,8 +92,9 @@ This is description. Use for pod description.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  #spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = 'podTest/*.{h}'
 
   # spec.public_header_files = "Classes/**/*.h"
 
