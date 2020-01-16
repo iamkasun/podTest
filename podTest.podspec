@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "This is summary for pod test. Use for test."
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ This is description. Use for pod description.
   #  profile URL.
   #
 
-  spec.author             = { "Kasun Sandeep" => "kasun.emedia@gmail.com" }
+  spec.author             = { "Kasun Sandeep" => "kasunsandeep.ks@gmail.com" }
   # Or just: spec.author    = "Kasun Sandeep"
   # spec.authors            = { "Kasun Sandeep" => "kasun.emedia@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Kasun Sandeep"
@@ -65,7 +65,8 @@ This is description. Use for pod description.
   #
 
   # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
+  spec.platform     = :ios, "11.0"
+  spec.swift_version = "4.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -80,7 +81,7 @@ This is description. Use for pod description.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.5" }
+  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.6" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
