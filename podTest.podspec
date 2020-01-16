@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "This is summary for pod test. Use for test."
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ This is description. Use for pod description.
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -81,7 +81,7 @@ This is description. Use for pod description.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.7" }
+  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -94,7 +94,7 @@ This is description. Use for pod description.
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.source_files  = 'podTest/*.{h}'
+  spec.source_files  = "podTest/*.{h}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
