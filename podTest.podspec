@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "podTest"
-  spec.version      = "1.0.10"
+  spec.version      = "1.0.11"
   spec.summary      = "This is summary for pod test. Use for test."
 
   # This description is used to generate tags and improve search results.
@@ -24,9 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-This is description. Use for pod description.
-                   DESC
+  spec.description  = "This is description. Use for pod description."
 
   spec.homepage     = "https://github.com/iamkasun/podTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -40,7 +38,7 @@ This is description. Use for pod description.
   #
 
   spec.license      = "MIT"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +63,7 @@ This is description. Use for pod description.
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "11.0"
+  spec.platform     = :ios, "8.0"
   spec.swift_version = "4.0"
 
   #  When using multiple platforms
@@ -81,7 +79,7 @@ This is description. Use for pod description.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.10" }
+  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.11" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
