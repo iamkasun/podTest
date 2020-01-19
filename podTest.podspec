@@ -1,3 +1,31 @@
+
+Pod::Spec.new do |spec|
+
+spec.name         = "podTest"
+spec.version      = "1.0.12"
+spec.summary      = "This is summary for pod test. Use for test."
+
+spec.description  = "This is description. Use for pod description."
+
+spec.homepage     = "https://github.com/iamkasun/podTest"
+
+spec.license      = "MIT"
+
+spec.author       = { "Kasun Sandeep" => "kasunsandeep.ks@gmail.com" }
+
+spec.platform     = :ios, "8.0"
+spec.swift_version = "4.0"
+
+spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.12" }
+
+spec.source_files = "podTest", "podTest/**/*.{h,m}"
+
+spec.static_framework = true
+spec.frameworks   = 'Alamofire', 'SwiftyJSON'
+spec.dependency 'Alamofire'
+spec.dependency 'SwiftyJSON', '~> 4.0'
+
+
 #
 #  Be sure to run `pod spec lint podTest.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
@@ -6,7 +34,6 @@
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 #
 
-Pod::Spec.new do |spec|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -15,18 +42,14 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "podTest"
-  spec.version      = "1.0.11"
-  spec.summary      = "This is summary for pod test. Use for test."
+  
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "This is description. Use for pod description."
 
-  spec.homepage     = "https://github.com/iamkasun/podTest"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +60,6 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
@@ -51,7 +73,6 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Kasun Sandeep" => "kasunsandeep.ks@gmail.com" }
   # Or just: spec.author    = "Kasun Sandeep"
   # spec.authors            = { "Kasun Sandeep" => "kasun.emedia@gmail.com" }
   # spec.social_media_url   = "https://twitter.com/Kasun Sandeep"
@@ -63,8 +84,6 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "8.0"
-  spec.swift_version = "4.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -79,7 +98,6 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.11" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +110,6 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  spec.source_files  = "podTest", "podTest/**/*.{h,m}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -123,10 +140,6 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-  spec.static_framework = true
-  spec.frameworks    = 'Alamofire', 'SwiftyJSON'
-  spec.dependency 'Alamofire'
-  spec.dependency 'SwiftyJSON', '~> 4.0'
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
