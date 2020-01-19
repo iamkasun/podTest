@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "podTest"
-spec.version      = "1.0.13"
+spec.version      = "1.0.14"
 spec.summary      = "This is summary for pod test. Use for test."
 
 spec.description  = "This is description. Use for pod description."
@@ -16,7 +16,7 @@ spec.author       = { "Kasun Sandeep" => "kasunsandeep.ks@gmail.com" }
 spec.platform     = :ios, "8.0"
 spec.swift_version = "4.0"
 
-spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.13" }
+spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.14" }
 
 spec.source_files = "podTest", "podTest/**/*.{h,m}", "podTest/Classes/Source/*.{swift}"
 

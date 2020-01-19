@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98D0798223D444070093DA9B /* SocialAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0798123D444070093DA9B /* SocialAuthentication.swift */; };
 		C0D9CB4423D076AE0011257F /* podTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D9CB3A23D076AD0011257F /* podTest.framework */; };
 		C0D9CB4923D076AE0011257F /* podTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D9CB4823D076AE0011257F /* podTestTests.swift */; };
 		C0D9CB4B23D076AE0011257F /* podTest.h in Headers */ = {isa = PBXBuildFile; fileRef = C0D9CB3D23D076AD0011257F /* podTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		98D0798123D444070093DA9B /* SocialAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialAuthentication.swift; sourceTree = "<group>"; };
 		C0D9CB3A23D076AD0011257F /* podTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = podTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0D9CB3D23D076AD0011257F /* podTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = podTest.h; sourceTree = "<group>"; };
 		C0D9CB3E23D076AD0011257F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98D0798023D444070093DA9B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				98D0798123D444070093DA9B /* SocialAuthentication.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		C0D9CB3023D076AD0011257F = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 			children = (
 				C0D9CB3D23D076AD0011257F /* podTest.h */,
 				C0D9CB3E23D076AD0011257F /* Info.plist */,
+				98D0798023D444070093DA9B /* Classes */,
 			);
 			path = podTest;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 				TargetAttributes = {
 					C0D9CB3923D076AD0011257F = {
 						CreatedOnToolsVersion = 11.2.1;
+						LastSwiftMigration = 1130;
 					};
 					C0D9CB4223D076AE0011257F = {
 						CreatedOnToolsVersion = 11.2.1;
@@ -195,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98D0798223D444070093DA9B /* SocialAuthentication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +353,7 @@
 		C0D9CB4F23D076AE0011257F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9584XYR28J;
@@ -358,6 +372,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -366,6 +381,7 @@
 		C0D9CB5023D076AE0011257F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9584XYR28J;
@@ -392,6 +408,7 @@
 		C0D9CB5223D076AE0011257F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9584XYR28J;
 				INFOPLIST_FILE = podTestTests/Info.plist;
@@ -410,6 +427,7 @@
 		C0D9CB5323D076AE0011257F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9584XYR28J;
 				INFOPLIST_FILE = podTestTests/Info.plist;
