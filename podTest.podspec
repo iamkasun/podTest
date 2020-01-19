@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
 spec.name         = "podTest"
-spec.version      = "1.0.12"
+spec.version      = "1.0.13"
 spec.summary      = "This is summary for pod test. Use for test."
 
 spec.description  = "This is description. Use for pod description."
@@ -16,14 +16,17 @@ spec.author       = { "Kasun Sandeep" => "kasunsandeep.ks@gmail.com" }
 spec.platform     = :ios, "8.0"
 spec.swift_version = "4.0"
 
-spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.12" }
+spec.source       = { :git => "https://github.com/iamkasun/podTest.git", :tag => "1.0.13" }
 
-spec.source_files = "podTest", "podTest/**/*.{h,m}"
+spec.source_files = "podTest", "podTest/**/*.{h,m}", "podTest/Classes/Source/*.{swift}"
 
 spec.static_framework = true
-spec.frameworks   = 'Alamofire', 'SwiftyJSON'
+spec.frameworks   = 'Alamofire', 'SwiftyJSON', 'GoogleSignIn', 'FBSDKLoginKit', 'TwitterKit'
 spec.dependency 'Alamofire'
 spec.dependency 'SwiftyJSON', '~> 4.0'
+spec.dependency 'GoogleSignIn'
+spec.dependency 'FBSDKLoginKit'
+spec.dependency 'TwitterKit'
 
 
 #
